@@ -1,4 +1,4 @@
-package com.company.classes;
+package com.example.demo.classes;
 
 public abstract class Animal {
     abstract public void wakeUp();
