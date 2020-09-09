@@ -1,9 +1,23 @@
 package com.company.classes;
 
 public abstract class Animal {
-    abstract public void wakeUp();
-    abstract public void rollCall();
-    abstract public void feed();
-    abstract public void exercise();
-    abstract public void sleep();
+    public void wakeUp() {
+        System.out.println("Default Wake up");
+    };
+    public void makeNoise() {
+        System.out.println("Default Make Noise");
+
+    };
+    public void eat() {
+        System.out.println("Default Eat");
+    };
+    public void roam() {
+        System.out.println("Default Roam");
+    };
+    public void sleep() {
+        System.out.println("Default Sleep");
+    };
+    public void printInfo() {
+        System.out.println("Default Print Info");
+    };
 }
