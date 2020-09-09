@@ -11,13 +11,6 @@ public class ZookeeperHomework1Application {
 
 	public static void main(String[] args) {
 		//SpringApplication.run(ZookeeperHomework1Application.class, args);
-
-		Tiger tig = new Tiger("tiggah");
-		for (int i = 0; i < 5; i++) {
-			System.out.println("Trainer command " + i);
-			tig.onCall();
-		}
-
 	}
 
 }
