@@ -16,4 +16,6 @@ public class Pachyderm  extends Animal {
             System.out.println("Pachyderm decided to roam around");
         }
     }
+
+    public void sleep(){};
 }

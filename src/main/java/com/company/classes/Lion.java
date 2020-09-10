@@ -33,11 +33,6 @@ public class Lion extends Feline {
         System.out.println(name + " the Lion decides to sleep");
     };
 
-    @Override
-    public void printInfo() {
-        System.out.println("Default Print Info");
-    };
-
     public String getName() {
         return name;
     }

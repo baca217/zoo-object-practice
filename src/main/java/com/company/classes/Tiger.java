@@ -33,11 +33,6 @@ public class Tiger extends Feline {
         System.out.println(name + " decides to sleep");
     };
 
-    @Override
-    public void printInfo() {
-        System.out.println("Default Print Info");
-    };
-
     public String getName() {
         return name;
     }
