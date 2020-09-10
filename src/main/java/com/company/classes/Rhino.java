@@ -2,7 +2,7 @@ package com.company.classes;
 
 import java.util.Random;
 
-public class Rhino {
+public class Rhino extends Pachyderm{
     private String name;
     public void wakeUp() {
         System.out.println(name + " the rhino woke up");
