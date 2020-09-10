@@ -3,7 +3,9 @@ package com.company.classes;
 import java.util.Random;
 
 public class Feline extends Animal {
-    public void onCall() {
+
+    @Override
+    void sleep() {
         Random rand = new Random();
         int probability = rand.nextInt(9);
 

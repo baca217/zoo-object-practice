@@ -28,10 +28,6 @@ public class Lion extends Feline {
         System.out.println(name + " the Lion roams around the cage");
     };
 
-    @Override
-    public void sleep() {
-        System.out.println(name + " the Lion decides to sleep");
-    };
 
     @Override
     public void printInfo() {

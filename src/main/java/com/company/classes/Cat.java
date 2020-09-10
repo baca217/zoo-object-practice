@@ -29,11 +29,6 @@ public class Cat extends Feline {
     };
 
     @Override
-    public void sleep() {
-        System.out.println(name + " the Cat decides to sleep");
-    };
-
-    @Override
     public void printInfo() {
         System.out.println("Default Print Info");
     };

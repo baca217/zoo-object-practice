@@ -14,10 +14,9 @@ public abstract class Animal {
     public void roam() {
         System.out.println("Default Roam");
     };
-    public void sleep() {
-        System.out.println("Default Sleep");
-    };
     public void printInfo() {
         System.out.println("Default Print Info");
     };
+
+    abstract void sleep();
 }
