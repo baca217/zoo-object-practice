@@ -3,7 +3,7 @@ package com.company.classes;
 import java.util.Random;
 
 public class Feline extends Animal {
-    public void sleep() {
+    void sleep() {
         Random rand = new Random();
         int probability = rand.nextInt(9);
 
@@ -20,5 +20,5 @@ public class Feline extends Animal {
         }
     }
 
-    public void roam(){};
+    public void roam(){}
 }

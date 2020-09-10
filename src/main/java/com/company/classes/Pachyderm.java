@@ -1,7 +1,5 @@
 package com.company.classes;
 
-import com.company.classes.Animal;
-
 import java.util.Random;
 
 public class Pachyderm  extends Animal {
@@ -17,5 +15,5 @@ public class Pachyderm  extends Animal {
         }
     }
 
-    public void sleep(){};
+    public void sleep(){}
 }
