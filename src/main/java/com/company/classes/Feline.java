@@ -3,7 +3,6 @@ package com.company.classes;
 import java.util.Random;
 
 public class Feline extends Animal {
-
     @Override
     void sleep() {
         Random rand = new Random();
@@ -21,4 +20,6 @@ public class Feline extends Animal {
             this.sleep();
         }
     }
+
+    public void roam(){}
 }
