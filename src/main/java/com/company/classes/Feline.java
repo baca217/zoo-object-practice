@@ -3,6 +3,7 @@ package com.company.classes;
 import java.util.Random;
 
 public class Feline extends Animal {
+    public Feline(String Name){super(Name);}
     @Override
     void sleep() {
         Random rand = new Random();

@@ -2,10 +2,8 @@ package com.company.classes;
 
 public class Lion extends Feline {
 
-    private final String name;
-
     public Lion(String name) {
-        this.name = name;
+        super(name);
     }
 
     @Override

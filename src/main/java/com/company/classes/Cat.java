@@ -1,11 +1,8 @@
 package com.company.classes;
 
 public class Cat extends Feline {
-
-    private final String name;
-
     public Cat(String name) {
-        this.name = name;
+        super(name);
     }
 
     @Override
@@ -26,9 +23,5 @@ public class Cat extends Feline {
     @Override
     public void roam() {
         System.out.println(name + " the Cat roams around the cage");
-    }
-
-    public String getName() {
-        return name;
     }
 }
