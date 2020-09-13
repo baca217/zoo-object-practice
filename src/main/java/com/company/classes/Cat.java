@@ -7,21 +7,21 @@ public class Cat extends Feline {
 
     @Override
     public void wakeUp() {
-        System.out.println(name + " the Cat Wakes up");
+        System.out.println(this.getName() + " the Cat Wakes up");
     }
 
     @Override
     public void makeNoise() {
-        System.out.println(name + " the Cat makes a noise");
+        System.out.println(this.getName() + " the Cat makes a noise");
     }
 
     @Override
     public void eat() {
-        System.out.println(name + " the Cat eats something tasty");
+        System.out.println(this.getName() + " the Cat eats something tasty");
     }
 
     @Override
     public void roam() {
-        System.out.println(name + " the Cat roams around the cage");
+        System.out.println(this.getName() + " the Cat roams around the cage");
     }
 }

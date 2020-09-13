@@ -8,25 +8,21 @@ public class Tiger extends Feline {
 
     @Override
     public void wakeUp() {
-        System.out.println(name + " the Tiger Wakes up");
+        System.out.println(this.getName() + " the Tiger Wakes up");
     }
 
     @Override
     public void makeNoise() {
-        System.out.println(name + " the Tiger makes a noise");
+        System.out.println(this.getName() + " the Tiger makes a noise");
     }
 
     @Override
     public void eat() {
-        System.out.println(name + " the Tiger eats something tasty");
+        System.out.println(this.getName() + " the Tiger eats something tasty");
     }
 
     @Override
     public void roam() {
-        System.out.println(name + " the Tiger roams around the cage");
-    }
-
-    public String getName() {
-        return name;
+        System.out.println(this.getName() + " the Tiger roams around the cage");
     }
 }

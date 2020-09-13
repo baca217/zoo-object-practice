@@ -1,7 +1,7 @@
 package com.company.classes;
 
 public abstract class Animal {
-    protected String name;
+    private String name;
 
     public Animal(String name) {
         this.name = name;
@@ -14,4 +14,5 @@ public abstract class Animal {
     abstract void roam();
     abstract void sleep();
     public String getName(){return this.name;}
+    public void setName(String newName){name = newName; }
 }
