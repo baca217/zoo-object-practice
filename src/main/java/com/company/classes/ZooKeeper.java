@@ -4,20 +4,20 @@ public class ZooKeeper extends ZooEmployee{
     public ZooKeeper(String Name){super(Name);}
     public void uniform(){}
     public void doDailyWork(int day, Animal[] animals){
-        System.out.println("Zookeeper "+name+" arrived for day "+day);
+        System.out.println("Zookeeper "+this.getName()+" arrived for day "+day+".\n");
         wakeAnimals(animals);
         roleCallAnimals(animals);
         feedAnimals(animals);
         exerciseAnimals(animals);
         sleepAnimals(animals);
-        System.out.println("Zookeeper "+name+" has left for day "+day);
+        System.out.println("Zookeeper "+this.getName()+" has left for day "+day+".\n");
     }
 
     private void wakeAnimals(Animal[] animals){
         int i;
         for(i = 0; i < animals.length; i++){
             //need to figure out how we will pull name and animal type from Animal superclass
-            System.out.println("Zookeeper");
+            System.out.println("Zookeeper "+this.getName()+" tried to wake up "+animals[i].getName()+" the "+animals[i].getType());
             animals[i].wakeUp();
         }
     }
@@ -25,6 +25,7 @@ public class ZooKeeper extends ZooEmployee{
     private void roleCallAnimals(Animal[] animals){
         int i;
         for(i = 0; i < animals.length; i++){
+            System.out.println("Zookeeper "+this.getName()+" tried to role call "+animals[i].getName()+" the "+animals[i].getType());
             animals[i].makeNoise();
         }
     }
@@ -32,6 +33,7 @@ public class ZooKeeper extends ZooEmployee{
     private void feedAnimals(Animal[] animals){
         int i;
         for(i = 0; i < animals.length; i++){
+            System.out.println("Zookeeper "+this.getName()+" tried to feed "+animals[i].getName()+" the "+animals[i].getType());
             animals[i].eat();
         }
     }
@@ -39,6 +41,7 @@ public class ZooKeeper extends ZooEmployee{
     private void exerciseAnimals(Animal[] animals){
         int i;
         for(i = 0; i < animals.length; i++){
+            System.out.println("Zookeeper "+this.getName()+" tried to exercise "+animals[i].getName()+" the "+animals[i].getType());
             animals[i].roam();
         }
     }
@@ -46,6 +49,7 @@ public class ZooKeeper extends ZooEmployee{
     private void sleepAnimals(Animal[] animals){
         int i;
         for(i = 0; i < animals.length; i++){
+            System.out.println("Zookeeper "+this.getName()+" tells "+animals[i].getName()+" the "+animals[i].getType() + " to sleep.");
             animals[i].sleep();
         }
     }

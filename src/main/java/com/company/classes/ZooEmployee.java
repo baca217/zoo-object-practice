@@ -1,12 +1,14 @@
 package com.company.classes;
 
 abstract class ZooEmployee {
-    protected String name;
-    protected int age;
-    protected String startDate;
-    protected String Birthday;
+    private String name;
+    private int age;
+    private String startDate;
+    private String Birthday;
 
     public ZooEmployee(String newName){this.name = newName;}
     abstract public void uniform();
-    abstract public void doDailyWork(int day, Animal[] animals);
+
+    public String getName(){ return this.name;}
+    public void setName(String newName){this.name = newName;}
 }

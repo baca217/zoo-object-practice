@@ -15,4 +15,5 @@ public abstract class Animal {
     abstract void sleep();
     public String getName(){return this.name;}
     public void setName(String newName){name = newName; }
+    public String getType(){return this.getClass().getSimpleName();}
 }
