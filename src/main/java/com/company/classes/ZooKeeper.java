@@ -2,15 +2,19 @@ package com.company.classes;
 
 public class ZooKeeper extends ZooEmployee{
     public ZooKeeper(String Name){super(Name);}
-    public void uniform(){}
     public void doDailyWork(int day, Animal[] animals){
-        System.out.println("Zookeeper "+this.getName()+" arrived for day "+day+".\n");
+        System.out.println("Zookeeper "+this.getName()+" arrived for day "+day+".");
+        uniform();
         wakeAnimals(animals);
         roleCallAnimals(animals);
         feedAnimals(animals);
         exerciseAnimals(animals);
         sleepAnimals(animals);
         System.out.println("Zookeeper "+this.getName()+" has left for day "+day+".\n");
+    }
+    @Override
+    public void uniform(){
+        System.out.println("Zookeeper put on their uniform");
     }
 
     private void wakeAnimals(Animal[] animals){

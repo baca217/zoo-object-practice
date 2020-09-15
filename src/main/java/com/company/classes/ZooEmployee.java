@@ -7,7 +7,9 @@ abstract class ZooEmployee {
     private String Birthday;
 
     public ZooEmployee(String newName){this.name = newName;}
-    abstract public void uniform();
+    abstract void uniform();
+
+    abstract void doDailyWork(int day, Animal[] animals);
 
     public String getName(){ return this.name;}
     public void setName(String newName){this.name = newName;}
