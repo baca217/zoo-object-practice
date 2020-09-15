@@ -9,10 +9,10 @@ public abstract class Animal {
         String type = this.getClass().getSimpleName().toLowerCase();
         char firstChar = type.charAt(0);
         Scanner scan = new Scanner(System.in);
-        while(firstChar != newName.charAt(0))
+        while(firstChar != newName.toLowerCase().charAt(0))
         {
             System.out.println("Please enter a name that begins with "+firstChar+" for animal "+type+".");
-            newName = scan.nextLine().toLowerCase();
+            newName = scan.nextLine();
         }
         this.name = newName;
     }
