@@ -1,5 +1,7 @@
 package com.company.classes;
 
+import java.util.List;
+
 abstract class ZooEmployee {
     private String name;
     private int age;
@@ -9,7 +11,7 @@ abstract class ZooEmployee {
     public ZooEmployee(String newName){this.name = newName;}
     abstract void uniform();
 
-    abstract void doDailyWork(int day, Animal[] animals);
+    abstract void doDailyWork(int day, List<Animal> animals);
 
     public String getName(){ return this.name;}
     public void setName(String newName){this.name = newName;}

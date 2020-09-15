@@ -1,8 +1,10 @@
 package com.company.classes;
 
+import java.util.List;
+
 public class ZooKeeper extends ZooEmployee{
     public ZooKeeper(String Name){super(Name);}
-    public void doDailyWork(int day, Animal[] animals){
+    public void doDailyWork(int day, List<Animal> animals){
         System.out.println("Zookeeper "+this.getName()+" arrived for day "+day+".");
         uniform();
         wakeAnimals(animals);
@@ -14,47 +16,47 @@ public class ZooKeeper extends ZooEmployee{
     }
     @Override
     public void uniform(){
-        System.out.println("Zookeeper put on their uniform");
+        System.out.println("Zookeeper "+this.getName()+" put on their uniform");
     }
 
-    private void wakeAnimals(Animal[] animals){
+    private void wakeAnimals(List<Animal> animals){
         int i;
-        for(i = 0; i < animals.length; i++){
+        for(i = 0; i < animals.size(); i++){
             //need to figure out how we will pull name and animal type from Animal superclass
-            System.out.println("Zookeeper "+this.getName()+" tried to wake up "+animals[i].getName()+" the "+animals[i].getType());
-            animals[i].wakeUp();
+            System.out.println("Zookeeper "+this.getName()+" tried to wake up "+animals.get(i).getName()+" the "+animals.get(i).getType());
+            animals.get(i).wakeUp();
         }
     }
 
-    private void roleCallAnimals(Animal[] animals){
+    private void roleCallAnimals(List<Animal> animals){
         int i;
-        for(i = 0; i < animals.length; i++){
-            System.out.println("Zookeeper "+this.getName()+" tried to role call "+animals[i].getName()+" the "+animals[i].getType());
-            animals[i].makeNoise();
+        for(i = 0; i < animals.size(); i++){
+            System.out.println("Zookeeper "+this.getName()+" tried to role call "+animals.get(i).getName()+" the "+animals.get(i).getType());
+            animals.get(i).makeNoise();
         }
     }
 
-    private void feedAnimals(Animal[] animals){
+    private void feedAnimals(List<Animal> animals){
         int i;
-        for(i = 0; i < animals.length; i++){
-            System.out.println("Zookeeper "+this.getName()+" tried to feed "+animals[i].getName()+" the "+animals[i].getType());
-            animals[i].eat();
+        for(i = 0; i < animals.size(); i++){
+            System.out.println("Zookeeper "+this.getName()+" tried to feed "+animals.get(i).getName()+" the "+animals.get(i).getType());
+            animals.get(i).eat();
         }
     }
 
-    private void exerciseAnimals(Animal[] animals){
+    private void exerciseAnimals(List<Animal> animals){
         int i;
-        for(i = 0; i < animals.length; i++){
-            System.out.println("Zookeeper "+this.getName()+" tried to exercise "+animals[i].getName()+" the "+animals[i].getType());
-            animals[i].roam();
+        for(i = 0; i < animals.size(); i++){
+            System.out.println("Zookeeper "+this.getName()+" tried to exercise "+animals.get(i).getName()+" the "+animals.get(i).getType());
+            animals.get(i).roam();
         }
     }
 
-    private void sleepAnimals(Animal[] animals){
+    private void sleepAnimals(List<Animal> animals){
         int i;
-        for(i = 0; i < animals.length; i++){
-            System.out.println("Zookeeper "+this.getName()+" tells "+animals[i].getName()+" the "+animals[i].getType() + " to sleep.");
-            animals[i].sleep();
+        for(i = 0; i < animals.size(); i++){
+            System.out.println("Zookeeper "+this.getName()+" tells "+animals.get(i).getName()+" the "+animals.get(i).getType() + " to sleep.");
+            animals.get(i).sleep();
         }
     }
 }
