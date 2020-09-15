@@ -5,6 +5,7 @@ public class Cat extends Feline {
         super(name);
     }
 
+    // EXAMPLES OF POLYMORPHISM
     @Override
     public void wakeUp() {
         System.out.println(this.getName() + " the Cat Wakes up");

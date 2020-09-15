@@ -2,7 +2,9 @@ package com.company.classes;
 
 import java.util.Scanner;
 
+//EXAMPLE OF ABSTRACT CLASS
 public abstract class Animal {
+    //EXAMPLE OF IDENTITY
     private String name;
 
     public Animal(String newName) {
