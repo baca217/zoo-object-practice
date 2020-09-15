@@ -31,5 +31,4 @@ public class ZookeeperHomework1Application {
 			elmer.doDailyWork(i + 1, list);
 		}
 	}
-
 }
