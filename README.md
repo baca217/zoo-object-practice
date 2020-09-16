@@ -8,5 +8,7 @@ an animal super class.
 
 How to use?
 ------------------
+Main function class can be found under zookeeper-homework1\src\main\java\com\ZookeeperHomework1Application .
 By running the main function the program will ask for a number of days for which the zookeeper
-will do their tasks for. That's the only input the program needs.
+will do their tasks for. That's the only input the program needs. Might need the spring framework but
+it should be included within the files.
