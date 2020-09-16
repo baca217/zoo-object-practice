@@ -38,7 +38,6 @@ public class ZookeeperHomework1Application {
 		//Canine
 		Dog d1 = new Dog("Derek");
 		Dog d2 = new Dog("Dennis");
-		Dog d3 = d1;
 		Wolf dw1 = new Wolf("Wayne");
 		Wolf dw2 = new Wolf("Wes");
 
@@ -48,25 +47,6 @@ public class ZookeeperHomework1Application {
 		//PrintStream out = new PrintStream(new FileOutputStream("output.txt")); //writing console out to output.txt file
 		//System.setOut(out);
 
-		//identity
-		if (d1 == d2)
-		{
-			System.out.println(d1.getName()+" the "+ d1.getType()+" is the same as "+d2.getName()+" the " +d2.getType()+".");
-		}
-		else
-		{
-			System.out.println(d1.getName()+" the "+ d1.getType()+" is not the same as "+d2.getName()+" the " +d2.getType()+".");
-		}
-
-		//identity
-		if (d1 == d3)
-		{
-			System.out.println(d1.getName()+" the "+ d1.getType()+" is the same as "+d3.getName()+" the " +d3.getType()+".\n");
-		}
-		else
-		{
-			System.out.println(d1.getName()+" the "+ d1.getType()+" is not the same as "+d3.getName()+" the " +d3.getType()+".\n");
-		}
 		//abstraction
 		elmer.doDailyWork(days, zoo);
 	}
