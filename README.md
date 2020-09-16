@@ -2,7 +2,7 @@ Object-Oriented Project 1 Zoo
 By: Elmer Baca Holguin and Timothy Euken
 =======================
 This project is meant to show understanding of object oriented concepts.
-Main concepts focused on were abstraction, encapsulation, polymorphism, abstraction, and identity.
+Main concepts focused on were encapsulation, polymorphism, abstraction, and identity.
 The project is based on a zookeeper object doing a set of tasks for subclasses that derive from
 an animal super class that are coupled together to represent a zoo.
 
