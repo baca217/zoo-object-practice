@@ -2,8 +2,9 @@ package com.company.classes;
 
 import java.util.Scanner;
 
-public abstract class Animal { //abstract class
-    //encapsulation
+//EXAMPLE OF ABSTRACT CLASS
+public abstract class Animal {
+    //EXAMPLE OF IDENTITY
     private String name;
 
     public Animal(String newName)
