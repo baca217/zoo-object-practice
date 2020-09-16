@@ -44,8 +44,9 @@ public class ZookeeperHomework1Application {
 
 		List<Animal> zoo = Arrays.asList(k1, k2, w1, w2, e1, e2, h1, h2, r1, r2, c1, c2, t1, t2, d1, d2, dw1, dw2);
 		//https://stackoverflow.com/questions/1994255/how-to-write-console-output-to-a-txt-file
-		PrintStream out = new PrintStream(new FileOutputStream("output.txt")); //writing console out to output.txt file
-		System.setOut(out);
+		//the code below is for writing the console output to a file
+		//PrintStream out = new PrintStream(new FileOutputStream("output.txt")); //writing console out to output.txt file
+		//System.setOut(out);
 
 		//identity
 		if (d1 == d2)

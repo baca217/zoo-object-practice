@@ -24,12 +24,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="added some stuff to .gitignore file" />
+    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="added some stuff to .gitignore file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -207,7 +210,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/develop" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -251,22 +254,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="383" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1599708074815" />
-    <state width="914" height="270" key="GridCell.Tab.0.bottom" timestamp="1600226900696">
+    <state width="914" height="270" key="GridCell.Tab.0.bottom" timestamp="1600227993823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600226900696" />
-    <state width="914" height="270" key="GridCell.Tab.0.center" timestamp="1600226900695">
+    <state width="914" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600227993823" />
+    <state width="914" height="270" key="GridCell.Tab.0.center" timestamp="1600227993823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600226900695" />
-    <state width="914" height="270" key="GridCell.Tab.0.left" timestamp="1600226900695">
+    <state width="914" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600227993823" />
+    <state width="914" height="270" key="GridCell.Tab.0.left" timestamp="1600227993823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600226900695" />
-    <state width="914" height="270" key="GridCell.Tab.0.right" timestamp="1600226900696">
+    <state width="914" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600227993823" />
+    <state width="914" height="270" key="GridCell.Tab.0.right" timestamp="1600227993823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600226900696" />
+    <state width="914" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600227993823" />
     <state x="17" y="173" key="Maven.ArtifactSearchDialog" timestamp="1599706465948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
