@@ -25,8 +25,8 @@ public class Dog extends Canine{
     @Override
     public void roam() {
         Random rand = new Random();
-        int probability = rand.nextInt(9);
-        if(probability > 3) {
+        int probability = rand.nextInt(100);
+        if(probability > 25) {
             System.out.println(this.getName() + " the Wolf dig around the cage");
         } else {
             System.out.println(this.getName() + " the Wolf roams around the cage");

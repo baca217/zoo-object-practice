@@ -1,7 +1,6 @@
 package com;
 
 import com.company.classes.*;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.FileNotFoundException;
@@ -13,7 +12,6 @@ import java.util.*;
 public class ZookeeperHomework1Application {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		//SpringApplication.run(ZookeeperHomework1Application.class, args);
 		int days;
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter number of days: ");
@@ -40,18 +38,35 @@ public class ZookeeperHomework1Application {
 		//Canine
 		Dog d1 = new Dog("Derek");
 		Dog d2 = new Dog("Dennis");
+		Dog d3 = d1;
 		Wolf dw1 = new Wolf("Wayne");
 		Wolf dw2 = new Wolf("Wes");
 
-		List<Animal> zoo;
-		zoo = Arrays.asList(k1, k2, w1, w2, e1, e2, h1, h2, r1, r2, c1, c2, t1, t2, d1, d2, dw1, dw2);
+		List<Animal> zoo = Arrays.asList(k1, k2, w1, w2, e1, e2, h1, h2, r1, r2, c1, c2, t1, t2, d1, d2, dw1, dw2);
 		//https://stackoverflow.com/questions/1994255/how-to-write-console-output-to-a-txt-file
-		PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
+		PrintStream out = new PrintStream(new FileOutputStream("output.txt")); //writing console out to output.txt file
 		System.setOut(out);
 
-		for(int i = 0; i < days; i++)
+		//identity
+		if (d1 == d2)
 		{
-			elmer.doDailyWork(i + 1, zoo);
+			System.out.println(d1.getName()+" the "+ d1.getType()+" is the same as "+d2.getName()+" the " +d2.getType()+".");
 		}
+		else
+		{
+			System.out.println(d1.getName()+" the "+ d1.getType()+" is not the same as "+d2.getName()+" the " +d2.getType()+".");
+		}
+
+		//identity
+		if (d1 == d3)
+		{
+			System.out.println(d1.getName()+" the "+ d1.getType()+" is the same as "+d3.getName()+" the " +d3.getType()+".\n");
+		}
+		else
+		{
+			System.out.println(d1.getName()+" the "+ d1.getType()+" is not the same as "+d3.getName()+" the " +d3.getType()+".\n");
+		}
+		//abstraction
+		elmer.doDailyWork(days, zoo);
 	}
 }

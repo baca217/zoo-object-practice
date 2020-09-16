@@ -2,10 +2,12 @@ package com.company.classes;
 
 import java.util.Scanner;
 
-public abstract class Animal {
+public abstract class Animal { //abstract class
+    //encapsulation
     private String name;
 
-    public Animal(String newName) {
+    public Animal(String newName)
+    {
         String type = this.getClass().getSimpleName().toLowerCase();
         char firstChar = type.charAt(0);
         Scanner scan = new Scanner(System.in);

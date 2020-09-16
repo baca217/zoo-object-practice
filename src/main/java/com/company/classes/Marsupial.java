@@ -5,6 +5,8 @@ public class Marsupial extends Animal{
     {
         super(newName);
     }
+    @Override
     public void roam(){}
+    @Override
     public void sleep(){}
 }

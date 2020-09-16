@@ -5,7 +5,7 @@ import java.util.Random;
 public class Feline extends Animal {
     public Feline(String Name){super(Name);}
     @Override
-    void sleep() {
+    public void sleep() {
         Random rand = new Random();
         int probability = rand.nextInt(9);
 
@@ -18,9 +18,10 @@ public class Feline extends Animal {
         }
 
         if(probability >= 6) {
-            this.sleep();
+            System.out.println(getName()+" the "+getType()+" went to sleep.");
         }
     }
 
+    @Override
     public void roam(){}
 }
