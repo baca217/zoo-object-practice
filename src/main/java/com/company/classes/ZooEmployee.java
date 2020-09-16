@@ -1,7 +1,8 @@
 package com.company.classes;
 
+import java.util.List;
+
 abstract class ZooEmployee {
-    // EXAMPLE OF ENCAPSULATION
     private String name;
     private int age;
     private String startDate;
@@ -13,6 +14,7 @@ abstract class ZooEmployee {
     abstract void uniform();
 
     abstract void doDailyWork(int day, List<Animal> animals);
+
 
     public String getName(){ return this.name;}
     public void setName(String newName){this.name = newName;}
