@@ -2,11 +2,12 @@ package com.company.classes;
 
 import java.util.Scanner;
 
-//EXAMPLE OF ABSTRACT CLASS
+//EXAMPLE OF ENCAPSULATION
 public abstract class Animal {
     //EXAMPLE OF IDENTITY
+    //name is an example of identity
     private String name;
-
+    //EXAMPLE OF ABSTRACTION
     public Animal(String newName)
     {
         String type = this.getClass().getSimpleName().toLowerCase();

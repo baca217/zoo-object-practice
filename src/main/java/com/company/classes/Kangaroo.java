@@ -1,6 +1,9 @@
 package com.company.classes;
 
-public class Kangaroo extends Marsupial{
+//EXAMPLE OF ENCAPSULATION
+public class Kangaroo extends Marsupial{//extension is an example of polymorphism
+    //all functions are examples of abstraction
+    //name is an example of identity
     public Kangaroo(String newName){super(newName);}
     @Override
     public void wakeUp() {

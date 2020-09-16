@@ -2,9 +2,12 @@ package com.company.classes;
 
 import java.util.List;
 
-public class ZooKeeper extends ZooEmployee{
+//EXAMPLE OF ENCAPSULATION
+public class ZooKeeper extends ZooEmployee{//extension is an example of polymorphism
+    //name is an example of identity
     public ZooKeeper(String Name){super(Name);}
 
+    //function is an example of abstraction
     public void doDailyWork(int days, List<Animal> animals){ //argument List<Animal> shows polymorphism
         int i;
         for(i = 1; i < days+1; i++) {

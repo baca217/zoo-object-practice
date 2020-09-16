@@ -1,11 +1,12 @@
 package com.company.classes;
 
-public class Tiger extends Feline {
-
+//EXAMPLE OF ENCAPSULATION
+public class Tiger extends Feline {//extension is an example of polymorphism
+    //name is an example of identity
     public Tiger(String name) {
         super(name);
     }
-
+    //all functions are examples of abstraction
     @Override
     public void wakeUp() {
         System.out.println(this.getName() + " the Tiger Wakes up");

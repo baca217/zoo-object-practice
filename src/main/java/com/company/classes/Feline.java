@@ -2,7 +2,10 @@ package com.company.classes;
 
 import java.util.Random;
 
-public class Feline extends Animal {
+//EXAMPLE OF ENCAPSULATION
+public class Feline extends Animal {//extension is an example of polymorphism
+    //all functions are examples of abstraction
+    //name is an example of identity
     public Feline(String Name){super(Name);}
     @Override
     public void sleep() {

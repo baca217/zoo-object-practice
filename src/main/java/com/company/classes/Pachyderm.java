@@ -2,7 +2,10 @@ package com.company.classes;
 
 import java.util.Random;
 
-public class Pachyderm  extends Animal {
+//EXAMPLE OF ENCAPSULATION
+public class Pachyderm  extends Animal { //extension is an example of polymorphism
+    //all functions are examples of abstraction
+    //name is an example of identity
     public Pachyderm(String name){super(name);}
     @Override
     public void roam(){

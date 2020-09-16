@@ -1,8 +1,9 @@
 package com.company.classes;
 
-import java.util.Random;
-
-public class Hippo extends Pachyderm {
+//EXAMPLE OF ENCAPSULATION
+public class Hippo extends Pachyderm {//extension is an example of polymorphism
+    //all functions are examples of abstraction
+    //name is an example of identity
     public Hippo(String name){super(name);}
     @Override
     public void wakeUp() {

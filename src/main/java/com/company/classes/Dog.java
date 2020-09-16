@@ -2,7 +2,10 @@ package com.company.classes;
 
 import java.util.Random;
 
-public class Dog extends Canine{
+//EXAMPLE OF ENCAPSULATION
+public class Dog extends Canine{//extension is an example of polymorphism
+    //all functions are examples of abstraction
+    //name is an example of identity
     public Dog(String name) {
         super(name);
     }

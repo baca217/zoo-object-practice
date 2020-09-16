@@ -1,9 +1,10 @@
 package com.company.classes;
 
-import java.util.Random;
-
-public class Wombat extends Marsupial{
+//EXAMPLE OF ENCAPSULATION
+public class Wombat extends Marsupial{//extension is an example of polymorphism
+    //name is an example of identity
     public Wombat(String newName){super(newName);}
+    //all functions are examples of abstraction
     @Override
     public void wakeUp() {
         System.out.println(this.getName() + " the "+this.getType()+" woke up");

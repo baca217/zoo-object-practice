@@ -1,9 +1,10 @@
 package com.company.classes;
 
-import java.util.Random;
-
-public class Rhino extends Pachyderm{
+//EXAMPLE OF ENCAPSULATION
+public class Rhino extends Pachyderm{//extension is an example of polymorphism
+    //name is an example of identity
     public Rhino(String name){super(name);}
+    //all functions are examples of abstraction
     @Override
     public void wakeUp() {
         System.out.println(this.getName() + " the rhino woke up");
