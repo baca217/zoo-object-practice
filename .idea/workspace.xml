@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="added some stuff to .gitignore file" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="demo/invalid/Spring" />
+    </ignored-facets>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hGApUbxEUHlrwtmRnOuBfqPdap" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/company/classes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="diff.base" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ZookeeperHomework1Application" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ZookeeperHomework1Application" />
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="" />
+      <created>1599627240243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599627240243</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Merge branch 'develop' into OOP-2&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/ZookeeperHomework1Application.java&#10;#&#9;src/main/java/com/company/classes/Animal.java&#10;#&#9;target/classes/com/company/classes/Animal.class">
+      <created>1599714650538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599714650538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'develop' into OOP-2&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/ZookeeperHomework1Application.java&#10;#&#9;src/main/java/com/company/classes/Animal.java&#10;#&#9;target/classes/com/company/classes/Animal.class">
+      <created>1599716093795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599716093795</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'develop' into OOP-2&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/ZookeeperHomework1Application.java&#10;#&#9;src/main/java/com/company/classes/Animal.java&#10;#&#9;target/classes/com/company/classes/Animal.class">
+      <created>1599716551493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599716551493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="getName method added to Animal superclass. Other derived classes changed to reflect this change.">
+      <created>1599961680864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599961680864</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added methods getName and setName on Animal superclass. Subclasses changed to reflect this">
+      <created>1599963107185</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599963107185</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added so println statements for ZooKeeper class. Also added getType to Animal superclass. Subclasses changed to reflect this.">
+      <created>1600016840507</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600016840507</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Animal constructor forces name of derived classes to match the subclasses first letter. Overrided uniform method in ZooKeeper from ZooEmployee">
+      <created>1600130239415</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600130239415</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added Marsupial and sub-classes">
+      <created>1600133669514</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600133669514</updated>
+    </task>
+    <task id="LOCAL-00009" summary="made terminal output go to file in main">
+      <created>1600143446639</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600143446639</updated>
+    </task>
+    <task id="LOCAL-00010" summary="converted all arrays to lists. Added 2 instances of each animal to main.">
+      <created>1600208664883</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600208664883</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added som comments for readability">
+      <created>1600222677777</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600222677777</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed some list bugs">
+      <created>1600223057104</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600223057104</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added some stuff to .gitignore file">
+      <created>1600223945764</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600223945764</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'develop' into OOP-2&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/ZookeeperHomework1Application.java&#10;#&#9;src/main/java/com/company/classes/Animal.java&#10;#&#9;target/classes/com/company/classes/Animal.class" />
+    <MESSAGE value="getName method added to Animal superclass. Other derived classes changed to reflect this change." />
+    <MESSAGE value="added methods getName and setName on Animal superclass. Subclasses changed to reflect this" />
+    <MESSAGE value="added so println statements for ZooKeeper class. Also added getType to Animal superclass. Subclasses changed to reflect this." />
+    <MESSAGE value="Animal constructor forces name of derived classes to match the subclasses first letter. Overrided uniform method in ZooKeeper from ZooEmployee" />
+    <MESSAGE value="added Marsupial and sub-classes" />
+    <MESSAGE value="made terminal output go to file in main" />
+    <MESSAGE value="converted all arrays to lists. Added 2 instances of each animal to main." />
+    <MESSAGE value="added som comments for readability" />
+    <MESSAGE value="fixed some list bugs" />
+    <MESSAGE value="added some stuff to .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some stuff to .gitignore file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="75" y="211" width="1092" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599696455638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="75" y="211" width="1092" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599696455638" />
+    <state x="285" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1600127420811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="285" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600127420811" />
+    <state x="350" y="358" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599696452525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="350" y="358" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599696452525" />
+    <state x="743" y="383" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599708074815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="383" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1599708074815" />
+    <state width="914" height="270" key="GridCell.Tab.0.bottom" timestamp="1600226900696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600226900696" />
+    <state width="914" height="270" key="GridCell.Tab.0.center" timestamp="1600226900695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600226900695" />
+    <state width="914" height="270" key="GridCell.Tab.0.left" timestamp="1600226900695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600226900695" />
+    <state width="914" height="270" key="GridCell.Tab.0.right" timestamp="1600226900696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600226900696" />
+    <state x="17" y="173" key="Maven.ArtifactSearchDialog" timestamp="1599706465948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="17" y="173" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599706465948" />
+    <state x="0" y="85" key="MergeDialog" timestamp="1600222868035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600222868035" />
+    <state x="125" y="280" key="MultipleFileMergeDialog" timestamp="1600222868044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="125" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600222868044" />
+    <state x="239" y="224" key="RollbackChangesDialog" timestamp="1599714458200">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="239" y="224" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599714458200" />
+    <state x="0" y="96" key="SettingsEditor" timestamp="1600226891859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600226891859" />
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1600226801852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600226801852" />
+    <state x="298" y="300" key="chooseDestDirectoryDialog" timestamp="1599705890629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="298" y="300" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599705890629" />
+    <state x="266" y="133" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599962862952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="266" y="133" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599962862952" />
+    <state x="187" y="123" width="585" height="801" key="find.popup" timestamp="1599668088357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="187" y="123" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599668088357" />
+    <state x="260" y="235" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600130444546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="260" y="235" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600130444546" />
+    <state x="249" y="416" key="git4idea.ui.GitResetDialog" timestamp="1599714422338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="249" y="416" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599714422338" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1600226888362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600226888362" />
+  </component>
+</project>
