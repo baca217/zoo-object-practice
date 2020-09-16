@@ -29,9 +29,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="added some stuff to .gitignore file">
+    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="removed un-necessary code in main">
+      <change afterPath="$PROJECT_DIR$/dayatthezoo.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,7 @@
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="demo/invalid/Spring" />
+      <facet id="demo/invalid/Web" />
     </ignored-facets>
   </component>
   <component name="MavenImportPreferences">
@@ -196,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600223945764</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commented out code that stored console output to a file.">
+      <created>1600228567850</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600228567850</updated>
+    </task>
+    <task id="LOCAL-00015" summary="removed un-necessary code in main">
+      <created>1600228659332</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600228659332</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +252,10 @@
     <MESSAGE value="added som comments for readability" />
     <MESSAGE value="fixed some list bugs" />
     <MESSAGE value="added some stuff to .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some stuff to .gitignore file" />
+    <MESSAGE value="commented out code that stored console output to a file." />
+    <MESSAGE value="removed uncessary code in main" />
+    <MESSAGE value="removed un-necessary code in main" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed un-necessary code in main" />
   </component>
   <component name="WindowStateProjectService">
     <state x="75" y="211" width="1092" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599696455638">
@@ -254,22 +274,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="383" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1599708074815" />
-    <state width="914" height="270" key="GridCell.Tab.0.bottom" timestamp="1600227993823">
+    <state width="914" height="270" key="GridCell.Tab.0.bottom" timestamp="1600229551592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600227993823" />
-    <state width="914" height="270" key="GridCell.Tab.0.center" timestamp="1600227993823">
+    <state width="914" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600229551592" />
+    <state width="914" height="270" key="GridCell.Tab.0.center" timestamp="1600229551592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600227993823" />
-    <state width="914" height="270" key="GridCell.Tab.0.left" timestamp="1600227993823">
+    <state width="914" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600229551592" />
+    <state width="914" height="270" key="GridCell.Tab.0.left" timestamp="1600229551592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600227993823" />
-    <state width="914" height="270" key="GridCell.Tab.0.right" timestamp="1600227993823">
+    <state width="914" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600229551592" />
+    <state width="914" height="270" key="GridCell.Tab.0.right" timestamp="1600229551592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600227993823" />
+    <state width="914" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600229551592" />
     <state x="17" y="173" key="Maven.ArtifactSearchDialog" timestamp="1599706465948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -290,10 +310,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600226891859" />
-    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1600226801852">
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1600228672379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600226801852" />
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600228672379" />
     <state x="298" y="300" key="chooseDestDirectoryDialog" timestamp="1599705890629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -8,14 +8,14 @@ public class ZooKeeper extends ZooEmployee{
     public void doDailyWork(int days, List<Animal> animals){ //argument List<Animal> shows polymorphism
         int i;
         for(i = 1; i < days+1; i++) {
-            System.out.println("Zookeeper " + this.getName() + " arrived for day " + days + ".");
+            System.out.println("Zookeeper " + this.getName() + " arrived for day " + i + ".");
             uniform();//all functions below are abstraction
             wakeAnimals(animals);
             roleCallAnimals(animals);
             feedAnimals(animals);
             exerciseAnimals(animals);
             sleepAnimals(animals);
-            System.out.println("Zookeeper " + this.getName() + " has left for day " + days + ".\n");
+            System.out.println("Zookeeper " + this.getName() + " has left for day " + i + ".\n");
         }
     }
     @Override
